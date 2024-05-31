@@ -1,10 +1,5 @@
-
 package edu.unisabana.pizzafactory.model;
 
-/**
- *
- * @author cesarvefe
- */
 public class Ingrediente {
     private String nombre;
     private int cantidad;
@@ -32,11 +27,6 @@ public class Ingrediente {
 
     @Override
     public String toString() {
-        return "("+nombre+","+cantidad+")";
+        return "(" + nombre + "," + cantidad + ")";
     }
-
-
-    
-    
-    
 }
