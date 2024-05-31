@@ -47,7 +47,7 @@ public class PreparadorPizza {
 
     public static void main(String[] args) {
         try {
-            Ingrediente[] ingredientes = {new Ingrediente("queso", 1), new Ingrediente("jamon", 2)};
+            Ingrediente[] ingredientes = {new Ingrediente("pollo", 1), new Ingrediente("jamon", 2)};
             PreparadorPizza preparadorPizza = new PreparadorPizza(new FabricaPizzaDelgada());
             preparadorPizza.prepararPizza(ingredientes, Tamano.MEDIANO);
         } catch (ExcepcionParametrosInvalidos e) {
